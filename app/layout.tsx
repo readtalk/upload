@@ -2,8 +2,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 
 export const metadata = {
-  title: 'READTalk - Avatar',
-  description: 'A part of READTalk app with Image Blob for avatar uploads',
+  title: 'READTalk - Upload',
+  description: 'A part of READTalk app with Image Blob for uploads',
 }
 
 const inter = Inter({
