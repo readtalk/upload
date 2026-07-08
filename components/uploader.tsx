@@ -76,8 +76,8 @@ export default function Uploader() {
       return
     }
 
-    if (file.size / 1024 / 1024 > 50) {
-      toast.error('File size too big (max 50MB)')
+    if (file.size / 1024 / 1024 > 2) {
+      toast.error('File size too big (max 2MB)')
       return
     }
 
@@ -155,7 +155,7 @@ export default function Uploader() {
               Drag and drop or click to upload.
             </p>
             <p className="mt-2 text-center text-sm text-gray-500">
-              Max file size: 50MB
+              Max file size: 2MB
             </p>
             <span className="sr-only">Photo upload</span>
           </div>
