@@ -1,6 +1,6 @@
 {
-  "name": "readtalk-avatar",
-  "repository": "https://github.com/readtalk/avatar.git",
+  "name": "upload-readtalk",
+  "repository": "https://github.com/readtalk/upload.git",
   "license": "MIT",
   "version": "0.0.0",
   "private": true,
