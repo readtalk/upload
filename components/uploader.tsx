@@ -89,7 +89,7 @@ export default function Uploader() {
     <form className="grid gap-6" onSubmit={handleSubmit}>
       <div>
         <div className="space-y-1 mb-4">
-          <h2 className="text-xl font-semibold">Upload an image</h2>
+          <h3 className="text-xl font-semibold">images review</h3>
         </div>
         <label
           htmlFor="image-upload"
