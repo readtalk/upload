@@ -1,5 +1,8 @@
 {
   "$schema": "https://turborepo.com/schema.json",
+  "globalEnv": [
+    "BLOB_READ_WRITE_TOKEN"
+  ],
   "tasks": {
     "build": {
       "outputs": [".next/**", "!.next/cache/**"]
