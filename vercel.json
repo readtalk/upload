@@ -1,4 +1,14 @@
 {
   "buildCommand": "pnpm turbo build",
-  "ignoreCommand": "pnpm dlx turbo-ignore"
+  "ignoreCommand": "pnpm dlx turbo-ignore",
+  "headers": [
+    {
+      "source": "/api/upload",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://global.readtalk.workers.dev" },
+        { "key": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
+      ]
+    }
+  ]
 }
